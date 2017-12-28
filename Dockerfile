@@ -1,6 +1,6 @@
 FROM centos:7
 
-LABEL maintainer="nuno.goncalves@bbc.co.uk" \
+LABEL maintainer="nasgoncalves@outlook.com" \
       description="Latest centos 7 & ansible releases" \
       version="1.0"
 
