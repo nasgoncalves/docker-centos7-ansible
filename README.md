@@ -15,5 +15,6 @@ docker build --rm -t nasg/centos7-ansible:latest .
 
 ## Run
 ```
-docker run -it -t nasg/centos7-ansible bash
+docker run --cap-add SYS_ADMIN --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro -d --name ansible nasg/centos7-ansible
+docker exec -it ansible bash
 ```
