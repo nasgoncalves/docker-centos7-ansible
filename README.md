@@ -1,6 +1,6 @@
 # Docker Centos 7 Ansible
 
-Latest Centos 7 & Ansible releases.
+Latest Centos 7 (+ systemd) & Ansible releases.
 
 [Docker Hub](https://hub.docker.com/r/nasg/centos7-ansible/)
 
